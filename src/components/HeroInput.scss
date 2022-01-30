@@ -1,0 +1,39 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12rem;
+
+    &-field {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.8rem;
+        & input {
+            width: 21rem;
+            padding: 0.6rem 1rem;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            font-size: 0.7em;
+        }
+    }
+    &-submit {
+        text-align: center;
+        & a {
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            background-color: #adadad;
+            color: #ffffff;
+            font-weight: 600;
+            transition: background-color .5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #eeeeee;
+                color: #333333;
+            }
+            &:active {
+                background-color: #adadad;
+                color: #ffffff;
+            }
+        }
+    }
+}

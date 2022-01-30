@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <a href="/" className="navbar-logo">
-                   Words Words Words <i class="fab fa-artstation"></i>
+                   Words Words Words <i className="fab fa-artstation"></i>
                 </a>
             </div>
         </nav>
