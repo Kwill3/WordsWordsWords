@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import WordList from './components/WordList';
+import ResultList from './components/ResultList';
 import Words from "./util/Words";
 import './App.css';
 
 class App extends React.Component {
 	constructor(props) {
-    	super(props)
+    	super(props);
     	this.state = {
       		results: ''
     	}
@@ -23,7 +23,7 @@ class App extends React.Component {
 		<>
 			<Navbar />
 			<Hero searchWord={this.searchWord}/>
-			<WordList />
+			<ResultList results={this.state.results}/>
 		</>
 		);
 	}

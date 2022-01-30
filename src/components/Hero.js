@@ -4,7 +4,7 @@ import HeroInput from './HeroInput';
 
 class Hero extends React.Component {
 	constructor(props) {
-		super(props)
+		super(props);
 	}
 
 	render() {
