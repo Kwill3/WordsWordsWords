@@ -1,0 +1,38 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 12rem;
+}
+.search-field {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.8rem;
+}
+.search-field input {
+  width: 21rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 0.7em;
+}
+.search-submit {
+  text-align: center;
+}
+.search-submit a {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #adadad;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.search-submit a:hover {
+  background-color: #eeeeee;
+  color: #333333;
+}
+.search-submit a:active {
+  background-color: #adadad;
+  color: #ffffff;
+}/*# sourceMappingURL=HeroInput.css.map */
