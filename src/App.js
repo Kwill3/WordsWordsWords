@@ -25,7 +25,7 @@ class App extends React.Component {
 			<Hero searchWord={this.searchWord}/>
 			<ResultList results={this.state.results}/>
 		</>
-		);
+		)
 	}
 }
 
