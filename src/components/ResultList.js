@@ -1,4 +1,5 @@
 import React from 'react';
+import Result from './Result';
 
 class ResultList extends React.Component {
 	constructor(props) {
@@ -7,8 +8,8 @@ class ResultList extends React.Component {
 
 	render() {
 		return (
-			<div>
-  
+			<div className='ResultList'>
+				{this.props.results.map(a => <Result key={a.definition} results={a}/>)}
 		  	</div>
 		)
 	}
