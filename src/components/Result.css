@@ -1,0 +1,11 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17rem;
+  margin: 0 0.5rem 2.2rem 0.5rem;
+}
+.result-definition {
+  margin-bottom: 0.5rem;
+  font-size: 1.2em;
+}/*# sourceMappingURL=Result.css.map */

@@ -1,5 +1,6 @@
 import React from 'react';
 import Result from './Result';
+import './ResultList.css';
 
 class ResultList extends React.Component {
 	constructor(props) {
