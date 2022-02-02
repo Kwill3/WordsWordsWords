@@ -14,12 +14,17 @@ class HeroInput extends React.Component {
 	handleChange(e) {
 		this.setState({
 			word: e.target.value
-		})
+		});
 	}
   
 	handleSearch(e) {
 		this.props.searchWord(this.state.word);
 		e.preventDefault();
+		document.getElementById("result-section").scrollIntoView({
+			block: 'start',
+			behavior: 'smooth',
+			inline: 'center'
+		});
 	}
 
 	render() {

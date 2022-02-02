@@ -9,7 +9,7 @@ class ResultList extends React.Component {
 
 	render() {
 		return (
-			<div className='ResultList'>
+			<div className='ResultList' id='result-section'>
 				{this.props.results.map(a => <Result key={a.definition} results={a}/>)}
 		  	</div>
 		)

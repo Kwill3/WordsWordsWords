@@ -22,7 +22,7 @@ class App extends React.Component {
 		return (
 		<>
 			<Navbar />
-			<Hero searchWord={this.searchWord}/>
+			<Hero searchWord={this.searchWord} results={this.state.results}/>
 			<ResultList results={this.state.results}/>
 		</>
 		)
