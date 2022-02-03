@@ -1,8 +1,21 @@
+.ResultList-container {
+    background-color: #333333;
+    min-height: 95vh;
+    width: 100%;
+}
+
 .ResultList {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 4rem 10%;
-    padding-top: 100px;
+    padding: 50px 3rem;
+    
+}
+
+.ResultList h1 {
+    color: #eeeeee;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
 }

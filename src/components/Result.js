@@ -11,7 +11,7 @@ class Result extends React.Component {
             <div className='result'>
                 <div className="result-definition">
                     <h2>{this.props.results.definition}</h2>
-                    <p>({this.props.results.partOfSpeech})</p>
+                    <p>{this.props.results.partOfSpeech ? '(' + this.props.results.partOfSpeech + ')' : ''}</p>
                 </div>
             </div>
         )

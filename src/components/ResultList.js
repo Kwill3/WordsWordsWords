@@ -9,9 +9,12 @@ class ResultList extends React.Component {
 
 	render() {
 		return (
-			<div className='ResultList' id='result-section'>
-				{this.props.results.map(a => <Result key={a.definition} results={a}/>)}
-		  	</div>
+			<div className='ResultList-container'>				
+				<div className='ResultList'>
+					<h1 id='result-section'>{this.props.results == '' ? 'Enter a word in the search bar above to begin..' : 'Results'}</h1>
+					{this.props.results.map(a => <Result key={a.definition} results={a}/>)}
+				</div>
+			</div>
 		)
 	}
 }
