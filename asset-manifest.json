@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WordsWordsWords/static/css/main.85a63928.css",
+    "main.js": "/WordsWordsWords/static/js/main.a4755dbb.js",
+    "static/media/black-diamond.jpg": "/WordsWordsWords/static/media/black-diamond.ac0fcce57dc2600fa696.jpg",
+    "static/media/black-diamond-mobile.jpg": "/WordsWordsWords/static/media/black-diamond-mobile.467b36a79d807af5724a.jpg",
+    "index.html": "/WordsWordsWords/index.html",
+    "main.85a63928.css.map": "/WordsWordsWords/static/css/main.85a63928.css.map",
+    "main.a4755dbb.js.map": "/WordsWordsWords/static/js/main.a4755dbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85a63928.css",
+    "static/js/main.a4755dbb.js"
+  ]
+}
