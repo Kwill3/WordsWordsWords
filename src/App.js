@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ResultList from './components/ResultList';
+import BackToTop from './components/BackToTop';
 import Words from "./util/Words";
 import './App.css';
 
@@ -25,6 +26,7 @@ class App extends React.Component {
 			<Navbar />
 			<Hero searchWord={this.searchWord} results={this.state.results}/>
 			<ResultList results={this.state.results} word={this.state.word}/>
+			<BackToTop />
 		</>
 		)
 	}
