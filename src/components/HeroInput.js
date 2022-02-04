@@ -8,6 +8,7 @@ class HeroInput extends React.Component {
 			word: ''
 		}
 		this.handleChange = this.handleChange.bind(this);
+		this.handleKeypress = this.handleKeypress.bind(this);
 		this.handleSearch = this.handleSearch.bind(this);
 	}
   
@@ -16,10 +17,15 @@ class HeroInput extends React.Component {
 			word: e.target.value
 		});
 	}
+
+	handleKeypress(e) {
+		if (e.key === 'Enter') {
+			this.handleSearch();
+		}
+	}
   
-	handleSearch(e) {
+	handleSearch() {
 		this.props.searchWord(this.state.word);
-		e.preventDefault();
 		document.getElementById("result-section").scrollIntoView({
 			block: 'start',
 			behavior: 'smooth',
@@ -31,7 +37,7 @@ class HeroInput extends React.Component {
 		return (
 			<div className='search'>
 				<div className="search-field">
-					<input type="text" onChange={this.handleChange} placeholder='Type word here'/>
+					<input type="text" onChange={this.handleChange} onKeyPress={this.handleKeypress} placeholder='Type word here'/>
 				</div>
 				<div className="search-submit">
 					<a onClick={this.handleSearch}>Search word</a>
